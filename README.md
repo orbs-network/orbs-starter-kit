@@ -1,6 +1,14 @@
 # Orbs Starter Kit
 > Your starting point to build application on Orbs Network.
 
+## Quick start
+* `git clone https://github.com/orbs-network/orbs-starter-kit <name-of-your-app>`
+* `cd <name-of-your-app>`
+* `npm install`
+* `npm run gamma:start`
+* `npm run contract:deploy`
+* `npm run start`
+
 ## Prerequisites
 * Docker for desktop
 
