@@ -2,8 +2,9 @@
 > Your starting point to build application on Orbs Network.
 
 ## Quick start
-* `git clone https://github.com/orbs-network/orbs-starter-kit <name-of-your-app>`
-* `cd <name-of-your-app>`
+* Click on [`Use this template`](https://github.com/orbs-network/orbs-starter-kit/generate)
+* Clone the resulted repo
+* `cd <your-repo-name>`
 * `npm install`
 * `npm run gamma:start`
 * `npm run contract:deploy`
