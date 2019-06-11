@@ -10,7 +10,8 @@
 * `npm run start`
 
 ## Prerequisites
-* Docker for desktop
+* [Docker for desktop](https://www.docker.com/products/docker-desktop)
+* [Go language](https://golang.org/doc/install) (Optional)
 
 ## Wired Parts
 * Smart Contract example (Counter)
