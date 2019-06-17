@@ -12,6 +12,7 @@
 
 ## Prerequisites
 * [Docker for desktop](https://www.docker.com/products/docker-desktop)
+* [NodeJS](https://nodejs.org/en/)
 * [Go language](https://golang.org/doc/install) (Optional)
 
 ## Wired Parts
