@@ -15,11 +15,15 @@
 * [NodeJS](https://nodejs.org/en/)
 * [Go language](https://golang.org/doc/install) (Optional)
 
+## Decentralized Application Architecture
+![dapp architecture](https://static.wixstatic.com/media/13b3a9_ff49d3ebf639421eb853c75945e0461a~mv2_d_2450_1342_s_2.png)
+
 ## Wired Parts
 * Smart Contract example (Counter)
 * `orbs-contract-sdk`
 * Client side application based on react
 * `orbs-client-sdk`
+
 
 ## Available Scripts
 
