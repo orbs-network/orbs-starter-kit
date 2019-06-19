@@ -70,8 +70,9 @@ Runs prettier to do automatic linting of JavaScript files.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Gamma server and gamma-cli, read [gitbook](https://orbs.gitbook.io/contract-sdk).
+* [JavaScript Client SDK](https://github.com/orbs-network/orbs-client-sdk-javascript).
+* [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [React documentation](https://reactjs.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-To learn more about Gamma server and gamma-cli, read [gitbook](https://orbs.gitbook.io/contract-sdk).
