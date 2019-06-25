@@ -9,14 +9,10 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "postinstall": "brew install orbs-network/devtools/gamma-cli",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "lint": "prettier --write 'src/**/*.js'",
-    "gamma:start": "gamma-cli start-local",
-    "gamma:stop": "gamma-cli stop-local",
-    "contract:deploy": "gamma-cli deploy ./contracts/counter.go -name counter -signer user1"
+    "lint": "prettier --write 'src/**/*.js'"
   },
   "eslintConfig": {
     "extends": "react-app"

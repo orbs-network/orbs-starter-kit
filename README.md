@@ -6,13 +6,14 @@
 * Clone the resulted repo
 * `cd <your-repo-name>`
 * `npm install`
-* `npm run gamma:start`
-* `npm run contract:deploy`
+* `gamma-cli start-local`
+* `gamma-cli deploy ./contracts/counter.go -name counter -signer user1`
 * `npm run start`
 
 ## Prerequisites
 * [Docker for desktop](https://www.docker.com/products/docker-desktop)
 * [NodeJS](https://nodejs.org/en/)
+* [Gamma-cli](https://github.com/orbs-network/gamma-cli)
 * [Go language](https://golang.org/doc/install) (Optional)
 
 ## Decentralized Application Architecture
@@ -23,7 +24,6 @@
 * `orbs-contract-sdk`
 * Client side application based on react
 * `orbs-client-sdk`
-
 
 ## Available Scripts
 
@@ -51,18 +51,6 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run gamma:start`
-
-Starts gamma server inside the docker on port `8080` and `Prism`. `Prism` is Orbs block explorer available on `http://localhost:3000`.
-
-### `npm run gamma:stop`
-
-Stops previous launched docker processes.
-
-### `npm run contract:deploy`
-
-Deploys the contract (counter) from `contracts` folder to the running local blockchain on virtual chain 42.
 
 ### `npm run lint`
 
