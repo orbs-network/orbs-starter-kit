@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "brew install orbs-network/devtools/gamma-cli",
-    "start": "PORT=4000 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "prettier --write 'src/**/*.js'",
