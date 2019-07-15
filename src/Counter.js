@@ -3,7 +3,7 @@ import {
   argUint64,
   Client,
   createAccount
-} from 'orbs-client-sdk/dist/index.es';
+} from 'orbs-client-sdk';
 
 const contractName = 'counter';
 const { publicKey, privateKey } = createAccount();
