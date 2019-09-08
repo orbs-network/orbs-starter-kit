@@ -1,4 +1,4 @@
-# Orbs Starter Kit
+# Orbs Starter Kit [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/orbs-network/orbs-starter-kit/pulls)
 > Your starting point to build application on Orbs Network.
 
 ## Quick start
