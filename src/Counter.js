@@ -2,27 +2,31 @@ import React, { useState, useEffect } from 'react';
 import {
   argUint64,
   Client,
-  createAccount
+  createAccount,
+  LocalSigner
 } from 'orbs-client-sdk';
 
 const contractName = 'counter';
-const { publicKey, privateKey } = createAccount();
-const client = new Client('http://localhost:8080', 42, 'TEST_NET');
+const sender = createAccount();
+const client = new Client(
+  'http://localhost:8080',
+  42,
+  'TEST_NET',
+  new LocalSigner(sender)
+);
 
 export default () => {
   const [sum, setSum] = useState('');
   const [value, setValue] = useState('');
 
   const getValue = async () => {
-    const query = client.createQuery(publicKey, contractName, 'get', []);
+    const query = await client.createQuery(contractName, 'get', []);
     const { outputArguments } = await client.sendQuery(query);
     setSum(outputArguments[0].value.toString());
   };
 
   const submitValue = async val => {
-    const [tx] = client.createTransaction(
-      publicKey,
-      privateKey,
+    const [tx] = await client.createTransaction(
       contractName,
       'add',
       [argUint64(val)]
